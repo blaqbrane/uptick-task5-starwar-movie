@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-shadow:nth-child(1){
+  background-image: url('./assets/game1.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
