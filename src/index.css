@@ -12,10 +12,27 @@ body{
   font-family: "Open Sans", sans-serif;
 }
 
-.card-shadow:nth-child(1){
-  background-image: url('./assets/game1.jfif');
+.card-shadow {
   background-repeat: no-repeat;
   background-size: cover;
+}
+.card-shadow:nth-child(1){
+  background-image: url('./assets/game1.jfif');
+}
+.card-shadow:nth-child(2){
+  background-image: url('./assets/movie2.jfif');
+}
+.card-shadow:nth-child(3){
+  background-image: url('./assets/movie3.jfif');
+}
+.card-shadow:nth-child(4){
+  background-image: url('./assets/movie4.jfif');
+}
+.card-shadow:nth-child(5){
+  background-image: url('./assets//movie5.jfif');
+}
+.card-shadow:nth-child(6){
+  background-image: url('./assets/movie6.jfif');
 }
 
 
