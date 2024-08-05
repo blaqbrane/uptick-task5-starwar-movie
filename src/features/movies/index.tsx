@@ -1,13 +1,13 @@
 import Movies from "./movies"
 import Navbar from "./navbar"
 
-const Home = () => {
+const AllMovies = () => {
   return (
-    <div>
+    <div className="bg-black">
         <Navbar/>
         <Movies/>
     </div>
   )
 }
 
-export default Home
+export default AllMovies
