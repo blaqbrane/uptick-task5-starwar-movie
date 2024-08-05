@@ -18,7 +18,7 @@ const Movies = () => {
     <section className="max-w-[1400px] mx-auto px-6 py-4 md:px-18 lg:px-24 md:py-8 lg:py-8">
       <div className="card-container grid md:grid-cols-2 lg:grid-cols-3  gap-6">
         {data?.results?.map((movie: MovieTypes) => (
-          <MovieCard movie={movie} />
+          <MovieCard movie={movie} key={movie.title} />
         ))}
       </div>
     </section>

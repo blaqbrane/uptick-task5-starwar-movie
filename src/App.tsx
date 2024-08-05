@@ -1,14 +1,12 @@
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 
-import Home from "./features/landing-page"
+import MainRouter from "./components/routers";
 
 function App() {
- const queryClient = new QueryClient()
   return (
-    <QueryClientProvider client={queryClient}>
-    <Home/>
-    </QueryClientProvider>
-  )
+    <div className='overflow-hidden'>
+    <MainRouter/>
+    </div>
+  );
 }
 
-export default App
+export default App;
